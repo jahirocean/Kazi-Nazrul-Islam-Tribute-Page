@@ -1,0 +1,119 @@
+/* Responsive-web-design-projects  */
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cccc;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+#main {
+    background: #fff;
+}
+#main #img-div{
+    padding: 20px;
+}
+#main #img-div #image{
+    width: 400px;
+    height: auto;
+}
+#main #title{
+    background: #EEEEEE;
+    padding:20px 0;
+}
+#main #title h1{
+    font-size: 2.5rem;
+    color: #1b1b1b;
+    padding-bottom: 1px;
+}
+#main #title h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    background: #1b1b1b;
+    letter-spacing: 3.5px;
+    padding: 1px 5px;
+}
+
+
+#main #title,
+#main #img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+#main #img-div #img-caption{
+    padding-top: .8rem;
+    font-size: .9rem;
+}
+
+#main #tribute-info {
+    margin: 50px 0;
+    padding: 20px 40px;
+    text-align: justify;
+}
+#main #tribute-info .about p{
+    padding-bottom: 10px;
+    font-size: 1rem;
+    color: #1b1b1b;
+}
+
+
+
+#main #tribute-info .poetry,
+#main #tribute-info .poem-songs,
+#main #tribute-info .stories,
+#main #tribute-info .novels,
+#main #tribute-info .dramas,
+#main #tribute-info .essays{
+    padding: 30px 0;
+   
+}
+
+#main #tribute-info hr{
+    margin: 10px 0;
+}
+
+#main #tribute-info h2{
+    font-size: 2rem;
+}
+#main #tribute-info ul{
+    margin-left: 50px;
+}
+#main #tribute-info ul li{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+#main .tribute{
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 40px 30px 40px;
+}
+#main .tribute a{
+    text-decoration: none;
+    color: rgb(56, 165, 165);
+}
+#main .tribute a:hover {
+    text-decoration: underline;
+}
+
+/* Media queries */
+@media (min-width:1200px){
+    #main #tribute-info{
+        margin: 0 8rem;
+    }
+}
